@@ -1,0 +1,36 @@
+<div class="contenedor_registrar_usuarios">
+    <form action="" class="registrar_usuarios">
+        <img src="../../views/img/unnamed.png" alt="">
+        <br><br>
+        <h3>Registro usuario</h3><br>
+        <div class="inputs">
+            <ul class="contenido_registrar_usuarios">
+                <label class="label_registrar_usuarios" for="nombre">Nombre</label><br>
+                <input class="input_registrar_usuarios" type="text" id="nombre" placeholder="Nombres"><br>
+                <label class="label_registrar_usuarios" for="">Tipo de documento</label><br>
+                <select  class="select_registrar_usuarios" name="" id="tipo_documento">
+                    <option value="cedula">Cedula</option>
+                    <option value="Tarjeta_identidad">Tarjeta identidad</option>
+                    <option value="Cedula de extranjeria">Cedula de extranjeria</option>
+                </select><br>
+                <label class="label_registrar_usuarios" for="telefono">Telefono</label><br>
+                <input class="input_registrar_usuarios" type="text" id="telefono" placeholder="Telefono"><br>
+                <label class="label_registrar_usuarios" for="contraseña">Contraseña</label><br>
+                <input class="input_registrar_usuarios" type="text" id="contraseña" placeholder="Contraseña">
+            </ul>
+            <br><br>
+            <ul class="contenido_registrar_usuarios">
+                <label for="apellidos">Apellidos</label><br>
+                <input class="input_registrar_usuarios" type="text" id="apellidos" placeholder="Apellidos"><br>
+                <label for="documento">Documento</label><br>
+                <input class="input_registrar_usuarios" type="text" id="documento" placeholder="Documento"><br>
+                <label for="correo">Correo</label><br>
+                <input class="input_registrar_usuarios" type="text" id="correo" placeholder="Correo"><br>
+                <label for="confirmar contraseña">Confirmar contraseña</label><br>
+                <input class="input_registrar_usuarios" type="text" id="confirmar_contraseña" placeholder="Confirmación">
+
+            </ul>
+        </div>
+        <button type="button" id="btnRegistrar" onclick="registrarUsuario()" class="btnRegistrarUsuario">Registrar</button>
+    </form>
+</div>
