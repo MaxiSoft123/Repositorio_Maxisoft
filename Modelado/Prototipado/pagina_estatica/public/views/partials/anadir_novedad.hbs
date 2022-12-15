@@ -1,0 +1,36 @@
+<form action="" class="form_registrar_novedad">
+    <center>
+        <img src="../../views/img/unnamed.png" alt="logo">
+        <br><br>
+    </center>
+    <div class="caja_registrar_novedad">
+        <label for="">Petición</label>
+        <br>
+        <input class="input_largo_registrar_novedad" type="text" id="peticion">
+        <br><br>
+        <label for="">Descripción</label>
+        <br>
+        <input class="input_largo_registrar_novedad" type="text" id="descripcion">
+        <br><br>
+        <label for="">Desea hacer un cambio en el horario de trabajo?</label>
+        <select name="" id="cambio">
+            <option value="No">No</option>
+            <option value="Si">Si</option>
+        </select>
+        <br><br>
+        <label for="">Desde la hora&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hasta la hora</label>
+        <br>
+        <input type="number" class="input_pequeño_registrar_novedad" id="dehora">&nbsp;&nbsp;&nbsp;<input type="number"
+            class="input_pequeño_registrar_novedad" id="hahora">
+        <br><br>
+        <label for="">Desde el dia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hasta el dia</label>
+        <br>
+        <input type="date" class="input_pequeño_registrar_novedad" id="dedia">&nbsp;&nbsp;&nbsp;<input type="date"
+            class="input_pequeño_registrar_novedad" id="hadia">
+        <br><br>
+    </div>
+    <center><button class="boton_registrar_registrar_novedad" onclick="datos()">Registrar</button><button
+            class="boton_cancelar_registrar_novedad" onclick="borrada()">Cancelar</button>
+</form>
+<p id="final"></p>
+</center>
